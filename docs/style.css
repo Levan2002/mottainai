@@ -9,3 +9,24 @@ hr{border:0;border-top:1px dashed var(--rule);margin:16px 0}
 h1{font-size:40px;line-height:1.1;margin:8px 0 6px}h2{font-size:22px;margin:28px 0 6px}
 a{color:var(--verm)}img.icon{width:96px;height:96px;border-radius:22px;box-shadow:0 6px 18px rgba(0,0,0,.12)}
 ul{padding-left:20px}li{margin:6px 0}.soft{color:var(--soft)}footer{margin-top:40px;font-size:14px;color:var(--soft)}
+
+/* guides */
+.crumbs{margin:6px 0 10px}
+.crumbs a{color:inherit}
+.guide h1{font-size:34px}
+@media (max-width:480px){.guide h1{font-size:28px}}
+.lead{font-size:20px}
+.g-cta{display:inline-block;background:var(--verm);color:var(--paper);font-weight:600;text-decoration:none;padding:11px 20px;border-radius:999px}
+.g-cta-row{margin:14px 0}
+article{overflow-wrap:break-word}
+.g-end{margin-top:44px}
+.g-end h2{margin-top:0}
+.g-list,.g-related ul{list-style:none;padding:0}
+.g-list li,.g-related li{padding:12px 0;border-bottom:1px dashed var(--rule)}
+.g-list a,.g-related li a{font-weight:600;display:block}
+.g-list span,.g-related li span{display:block;color:var(--soft);font-size:15px}
+ol.steps li,ul.tips li{margin:8px 0}
+ol.steps{padding-left:24px}
+article table{border-collapse:collapse;width:100%;font-size:15px;margin:14px 0}
+article th,article td{border-bottom:1px dashed var(--rule);padding:8px 10px 8px 0;text-align:left;vertical-align:top}
+.g-table{overflow-x:auto}
